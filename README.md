@@ -3,6 +3,10 @@
 
 ![](https://img.shields.io/badge/license-GNU%20GPLV3-blue) ![](https://img.shields.io/badge/Linux-4.9.88-blue) ![](https://img.shields.io/badge/Qt-5.14.2-blue) ![](https://img.shields.io/badge/npm-v1.0.2-blue) ![](https://img.shields.io/badge/circleci-passing-green) ![](https://img.shields.io/badge/PRs-welcome-green)
 
+![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/all.png?raw=true)
+![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/desktop1.png?raw=true)
+![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/desktop2.png?raw=true)
+
 # 项目背景
 
 我是以单片机开发入门，后续又做了 Qt 相关工作，有时间后开始进行 linux 相关的学习，恰巧在二一年十一月份，百问网的韦东山老师进行了三个月的 linux 驱动直播，于是有了开发 DBoS 的念头
