@@ -3,6 +3,8 @@
 
 ![](https://img.shields.io/badge/license-GNU%20GPLV3-blue) ![](https://img.shields.io/badge/Linux-4.9.88-blue) ![](https://img.shields.io/badge/Qt-5.14.2-blue) ![](https://img.shields.io/badge/npm-v1.0.2-blue) ![](https://img.shields.io/badge/circleci-passing-green) ![](https://img.shields.io/badge/PRs-welcome-green)
 
+[B站演示视频](https://www.bilibili.com/video/BV1xL4y137Qz)
+
 ![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/all.png?raw=true)
 ![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/desktop1.png?raw=true)
 ![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/desktop2.png?raw=true)
