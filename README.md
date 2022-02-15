@@ -41,9 +41,18 @@
 使用 `"1. 快速试运行"` 中提供的文件进行以下操作后重启开发板
 
 * 替换文件 `/boot/100ask_imx6ull-14x14.dtb`
+
+![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/1.png?raw=true)
+
 * 替换文件 `/etc/profile`
+
+![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/3.png?raw=true)
+
 * 替换文件 `/etc/init.d/S99myirhmi2`
 * 替换文件 `/etc/init.d/S09modload`
+
+![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/4.png?raw=true)
+
 * 复制以下文件夹到开发板 `/` 目录
 
 ```
@@ -52,6 +61,8 @@ video : mp4 视频文件
 music : mp3 音乐文件
 driver: 驱动文件
 ```
+
+![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/2.png?raw=true)
 
 # 二次开发
 
