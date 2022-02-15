@@ -1,0 +1,48 @@
+#!/bin/sh
+
+start() {
+psplash-write "PROGRESS 75" 
+
+ntpd
+
+export XDG_RUNTIME_DIR=/usr/lib/
+export QT_QPA_PLATFORM=linuxfb
+export QT_QPA_EGLFS_TSLIB=1
+export TSLIB_CALIBFILE="/etc/pointercal"
+export QT_QPA_FB_DISABLE_INPUT=1
+export QT_QPA_EGLFS_DISABLE_INPUT=1
+export TSLIB_CONFFILE=/etc/ts.conf
+export TSLIB_CALIBFILE=/etc/pointercal
+export TSLIB_PLUGINDIR=/usr/lib/ts
+export TSLIB_CONSOLEDEVICE=none
+export QT_QPA_FB_TSLIB=1
+export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins
+#export QT_QPA_GENERIC_PLUGINS=tslib:/dev/input/event1,tslib,evdevkeyboard:/dev/input/event2,evdevkeyboard:/dev/input/event4,evdevkeyboard:/dev/input/event6,evdevmouse:/dev/input/event3
+
+export QT_QPA_GENERIC_PLUGINS=tslib:/dev/input/event1,tslib,evdevkeyboard:/dev/input/event2,evdevkeyboard:/dev/input/event4
+
+psplash-write "PROGRESS 95" 
+/DBoS --plugin tslib:$TSLIB_TSDEVICE &
+
+psplash-write "QUIT" 
+}
+
+stop() {
+	killall DBoS
+}
+
+case "$1" in
+        start)
+		insmod /driver/hs0038_drv.ko
+                start
+                ;;
+        stop)
+                stop
+		rmmod /driver/hs0038_drv.ko
+                ;;
+        *)
+                echo "Usage: $0 {start| stop|restart}"
+                exit 1
+esac
+
+exit $?

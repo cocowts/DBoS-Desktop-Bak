@@ -1,0 +1,6 @@
+
+hs0038 {
+	compatible = "100ask,hs0038";
+	gpios = <&gpio4 23 GPIO_ACTIVE_LOW>;
+};
+

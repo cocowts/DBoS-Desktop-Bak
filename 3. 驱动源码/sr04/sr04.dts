@@ -1,0 +1,8 @@
+GPIO4_19 - trig
+GPIO4_20 - echo
+
+sr04 {
+	compatible = "100ask,sr04";
+	trig-gpios = <&gpio4 19 GPIO_ACTIVE_HIGH>;
+	echo-gpios = <&gpio4 20 GPIO_ACTIVE_HIGH>;
+};

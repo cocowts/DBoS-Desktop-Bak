@@ -1,0 +1,8 @@
+
+sr501 {
+    pinctrl-names = "default";
+    pinctrl-0 = <&sr501pin>;
+
+    compatible = "100ask,sr501";
+    gpios = <&gpio4 19 GPIO_ACTIVE_HIGH>;
+};

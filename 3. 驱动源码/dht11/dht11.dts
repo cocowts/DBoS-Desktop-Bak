@@ -1,0 +1,5 @@
+
+dht11 {
+	compatible = "100ask,dht11";
+	gpios = <&gpio4 19 GPIO_ACTIVE_HIGH>;
+};
