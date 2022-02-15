@@ -1,8 +1,24 @@
-<video src="https://www.bilibili.com/video/BV1xL4y137Qz" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+# 项目背景
+我是以单片机开发入门，后续又做了了Qt相关工作，有时间精力后开始进行linux相关的学习，恰巧在二一年十一月份，百问网的韦东山老师进行了三个月的linux驱动直播，于是有了开始 DBoS 的念头，从上至下涉及到界面应用和底层驱动，借此进行学习。
+
+# 介绍
+这是一个基于 100ASK_IMX6ULL_PRO 开发板的综合性展示项目，涉及到了GUI和linux设备驱动。
 
 
-项目背景
-安装
+# 快速上手【开发板运行环境搭建】
+
+1. 替换文件 `/boot/100ask_imx6ull-14x14.dtb`
+2. 替换文件 `/etc/profile`
+3. 替换文件 `/etc/init.d/S99myirhmi2`
+4. 替换文件 `/etc/init.d/S09modload`
+5. 复制以下文件夹到开发板 `/` 目录
+```
+DBoS : 可执行文件
+video : mp4 视频文件
+music : mp3 音乐文件
+driver: 驱动文件
+```
+
 使用
 Badge
 相关项目（可选）
