@@ -1,4 +1,4 @@
-<video src="www.bilibili.com/video/BV1xL4y137Qz" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+<video src="https://www.bilibili.com/video/BV1xL4y137Qz" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
 
 项目背景
