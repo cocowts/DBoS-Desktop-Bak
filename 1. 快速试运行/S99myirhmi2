@@ -19,7 +19,7 @@ export QT_QPA_FB_TSLIB=1
 export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins
 #export QT_QPA_GENERIC_PLUGINS=tslib:/dev/input/event1,tslib,evdevkeyboard:/dev/input/event2,evdevkeyboard:/dev/input/event4,evdevkeyboard:/dev/input/event6,evdevmouse:/dev/input/event3
 
-export QT_QPA_GENERIC_PLUGINS=tslib:/dev/input/event1,tslib,evdevkeyboard:/dev/input/event2,evdevkeyboard:/dev/input/event4
+export QT_QPA_GENERIC_PLUGINS=tslib:/dev/input/event1,tslib,evdevkeyboard:/dev/input/event2,evdevkeyboard:/dev/input/event3
 
 psplash-write "PROGRESS 95" 
 /DBoS --plugin tslib:$TSLIB_TSDEVICE &
