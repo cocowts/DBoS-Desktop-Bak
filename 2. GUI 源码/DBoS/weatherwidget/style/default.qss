@@ -21,20 +21,20 @@ QWidget#weather_detailedWidget {
 }
 
 QLabel#weather_tempLbl {
-    font: normal normal 50px;
+    font: normal normal 45px;
 }
 
 QLabel#weather_textLbl {
-    font: normal normal 25px;
+    font: normal normal 23px;
 }
 
 QLabel#weather_text {
-    font: normal normal 23px;
+    font: normal normal 20px;
 }
 
 QLabel#weather_windScaleLbl, QLabel#weather_humidityValueLbl, QLabel#weather_ultravioletValueLbl, QLabel#weather_feelsLikeValueLbl,
 QLabel#weather_visValueLbl, QLabel#weather_precipValueLbl, QLabel#weather_pressurepValueLbl {
-    font: normal normal 25px;
+    font: normal normal 23px;
 }
 
 QLabel#weather_windDirLbl, QLabel#weather_humidityLbl, QLabel#weather_ultravioletLbl, QLabel#weather_feelsLikeLbl,
